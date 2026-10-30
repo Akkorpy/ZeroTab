@@ -15,7 +15,32 @@
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <aside id="apod"></aside>
+    <main id="center">
+      <h1 id="time"></h1>
+      <p id="date"></p>
+      <form id="search-form" action="https://www.google.com/search" method="get">
+        <input name="q" placeholder="Search">
+      </form>
+
+      <nav id="links">
+        <a href="https://www.youtube.com">
+          <img src="https://www.google.com/s2/favicons?domain=youtube.com" alt="YouTube">
+        </a>
+
+        <a href="https://www.github.com">
+          <img src="https://www.google.com/s2/favicons?domain=github.com" alt="GitHub">
+        </a>
+      </nav>
+    </main>
+    <aside id="right">
+      <div id="weather" class="widget">
+        <h2>Weather</h2>
+        <div id="weather-info">Under development...</div>
+      </div>
+    </aside>
+  </div>
   <script type="module" src="/src/main.js"></script>
 </body>
 
