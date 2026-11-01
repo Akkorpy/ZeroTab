@@ -36,3 +36,5 @@ I used Claude and Gemini to learn how to make it as I had a little to make it an
 ## Error 500
 
 I failed to find out why, but NASA APOD API often returns a 500 error. When this happens, you'll see a message instead of the picture. Refreshing the page after a while usually helps.
+
+<img width="784" height="591" alt="image" src="https://github.com/user-attachments/assets/394af6b8-0d02-493a-ad28-10d57b8090fe" />
