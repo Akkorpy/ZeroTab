@@ -32,3 +32,7 @@ Straight link => https://akkorpy.github.io/ZeroTab/
 ## Credits & Acknowledgements
 
 I used Claude and Gemini to learn how to make it as I had a little to make it and ship, so used them for debugging and sometimes for visuals. I hope I’ll finis hit in the future and by solely myself. All the styles and ideas were created by me!
+
+## Error 500
+
+I failed to find out why, but NASA APOD API often returns a 500 error. When this happens, you'll see a message instead of the picture. Refreshing the page after a while usually helps.

@@ -24,7 +24,8 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`)
   })
 
   .catch(err => {
-    document.querySelector("#apod").innerHTML = `<p>Error: ${err.message}</p>`;
+    console.log(err)
+    document.querySelector("#apod").innerHTML = `<p>Nasa picture is unavailable right now. Please, refreesh the page until it works.</p>`;
   });
 
 const time = document.getElementById("time");
